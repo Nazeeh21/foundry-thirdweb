@@ -20,8 +20,4 @@ contract CountContract {
   function decrement() public {
     count--;
   }
-
-  function getCount() public view returns (uint) {
-    return count;
-  }
 }
